@@ -1,12 +1,90 @@
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 2;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
+.wrap {
+  width: 1000px;
+  margin: 100 auto;
+}
+p {
+  margin:0;
+}
 
+.top {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin:0 0;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+
+}
+
+.nav-bar {
+  display:inline-block;
+  margin:0;
+  padding:0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: .5px;
+  text-align: center;
+  width:100%;
+}
+
+.nav-bar li {
+  background-color: lightgrey;
+  display:inline-block;
+  color:white;
+  padding: 8px 5px;
+}
+
+.heading {
+  background-color: #80fed0;
+  font-weight: normal;
+  margin: 15px 0px 5px 0px;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  width: 1000px;
+
+}
+
+span {
+  border-bottom: 3px solid yellow;
+  font-weight: bold;
+}
+
+.container {
+  display:inline-block;
+  margin: 0px 0px 10px 0px;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  width: 1000px;
+
+}
+
+.one-third {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 330px;
+  vertical-align: top;
+}
+
+.options {
+  background-color: yellow;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  line-height: 2.5;
+  margin-top:15px;
+  text-align: center;
 }
